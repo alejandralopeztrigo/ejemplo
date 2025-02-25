@@ -78,7 +78,7 @@
                         <span><?php echo htmlspecialchars($task['task']); ?></span>
                         <form method="post" style="display:inline;">
                             <button type="submit" name="complete" value="<?php echo htmlspecialchars($task['id']); ?>">
-                                Complete
+                                Completados
                             </button>
                         </form>
                     <?php endif; ?>
