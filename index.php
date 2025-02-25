@@ -78,7 +78,11 @@
                         <span><?php echo htmlspecialchars($task['task']); ?></span>
                         <form method="post" style="display:inline;">
                             <button type="submit" name="complete" value="<?php echo htmlspecialchars($task['id']); ?>">
+<<<<<<< HEAD
                                 12321321321321321
+=======
+                                Completados
+>>>>>>> feature/KS-12345
                             </button>
                         </form>
                     <?php endif; ?>
