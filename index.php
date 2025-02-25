@@ -3,7 +3,7 @@
     $servidor = "mysql";
     $usuario = "root";
     $password = "root";
-    $base_datos = "todo_app";
+    $base_datos = "todo_app2";
 
     $conn = mysqli_connect($servidor, $usuario, $password, $base_datos);
 
